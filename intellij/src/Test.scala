@@ -1,7 +1,7 @@
 import scala.language.experimental.macros
-import scala.reflect.core._
-import scala.reflect.semantic._
-import scala.reflect.semantic.errors.throwExceptions
+import scala.meta._
+import scala.meta.semantic._
+import errors.throwExceptions
 
 object Test extends App {
   def join[T, U](x: T, y: U): Any = macro {

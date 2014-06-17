@@ -5,7 +5,7 @@
       <configuration>
         <option name="compilerLibraryLevel" value="Project" />
         <option name="compilerLibraryName" value="scala-compiler" />
-        <option name="compilerOptions" value="-Xplugin:$MODULE_DIR$/../../scalahost/plugin/target/scala-2.11/scalahost_2.11.1-0.1.0-SNAPSHOT.jar" />
+        <option name="compilerOptions" value="-Xplugin:$MODULE_DIR$/../bin/scalahost_2.11.1-0.1.0-SNAPSHOT.jar" />
         <option name="languageLevel" value="Scala 2.11" />
       </configuration>
     </facet>
